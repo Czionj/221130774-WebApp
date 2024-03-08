@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cddfe4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #8f7171;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #160110; 
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #e015c5; 
+}
+
+a:active {
+    color: #0056b3; 
+}
