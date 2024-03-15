@@ -8,58 +8,95 @@
 <body>
     <style type="text/css">
         .background {
-            background: lightgray;
+            background: lightgreen;
         }
         .head {
-            background: transparent;
+            background: lightskyblue;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            position: fixed;
+            left: 80px;
+            border: 0.5 black;
+
         }
         .eyeball {
-            background: transparent;
-            border-color: transparent;
+            background: white;
+            position: relative;
+            border: .8px black;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            top: 12px;
+            left: 20px;
         }
         .pupil {
-            color: transparent;
+            color: black;
+            position: relative;
+            left: 2px;
+            top: -3px;
         }
         .beak {
-            color: lightyellow;
+            color: brown;
+            position: relative;
+            width: 8%;
+            font-size: 24pt;
+            bottom: 6px;
+            left: 30px;           
         }
         .body {
-            color: yellowgreen;
+            background-color: lightskyblue;
+            width: 80px;
+            height: 80px;
+            border-radius: 60%;
+            margin-left: 10px;
+            border: 6px black;
         }
         .wing {
-            color: violet;
+            color:  brown;
+            margin-left: 30px;
+            margin-top: 28px;
+            font-size: 20pt;
         }
         .drumstick {
-            color: bisque;
+            color: brown;
+        }
+        .drumstick-left {
+            margin-left: 38px;
+            margin-top: -2px;
+            margin-right: -3;
         }
         .drumstick-right {
-            color: blanchedalmond;
+            margin-left: 60px;
+            margin-top: -40px;
         }
-        </style>
-        <div class="canvas background">
-            <div class="air background"></div>
-            <div class="head">
-                <div class="eyeball">
-                  <span class="pupil">&middot;</span>
+
+    </style>
+    <div class="canvas background">
+        <div class="air background"></div>
+        <div class="head">
+            <div class="eyeball">
+                <span class="pupil"> &middot; </span>
+            </div>
+            <div class="beak">
+                <strong>&gt;</strong>
+            </div>
+        </div>
+        <div class="body">
+            <div class="wing">
+                <strong>&lt;
+                </strong>
                 </div>
-                <div class="beak">
-                  <strong>&gt;</strong>
-                </div>
-              </div>
-              <div class="body">
-                <div class="wing">
-                    <strong>&lt;
-                    </strong>
-                  </div>
-              </div>
-              <div class="drumstick">
-                <div class="drumstick">|
-                    <br />/|
+            </div>
+            <div class="drumstick">
+                <div class="drumstick-left"> |
+                    <br />  /|\
                 </div>
                 <div class="drumstick drumstick-right">|
-                    <br />/|          
-              </div>
+                    <br />  /|\          
+                </div>
             </div>
-          </div>
+        </div>
+
 </body>
 </html>
