@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird</title>
+    <style type="text/css">
+        .background {
+            background: lightblue;
+            height: 200px;
+            position: relative;
+        }
+        .bird {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .head {
+            width: 50px;
+            height: 50px;
+            background: #f7d358;
+            border-radius: 50%;
+            position: relative;
+        }
+        .eye {
+            width: 10px;
+            height: 10px;
+            background: black;
+            border-radius: 50%;
+            position: absolute;
+            top: 30%;
+            left: 60%;
+        }
+        .beak {
+            width: 0;
+            height: 0;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 20px solid orange;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+        }
+        .body {
+            width: 100px;
+            height: 80px;
+            background: #f7d358;
+            border-radius: 10% / 30%;
+        }
+        .wing {
+            width: 80px;
+            height: 40px;
+            background-color: #f7d358;
+            position:absolute;
+            top:-20px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="bird">
+          <div class="head">
+              <div class="eye"></div>
+              <div class="beak"></div>
+          </div>
+          <div class="body"></div>
+          <div class="wing"></div>
+      </div>
+    </div>
+</body>
+</html>
